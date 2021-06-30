@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-const port = 3000;
+const port = 8080;
 const dbURL = "mongodb+srv://ExpressAPI:ExpressAPI@cluster0.9l6zr.mongodb.net/logs?retryWrites=true&w=majority";
 
 try{
