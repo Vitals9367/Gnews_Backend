@@ -6,7 +6,7 @@ const app = express();
 app.use(cors())
 
 const port = 8080;
-const dbURL = "mongodb+srv://ExpressAPI:ExpressAPI@cluster0.9l6zr.mongodb.net/logs?retryWrites=true&w=majority";
+const dbURL = "your mongodb_URL";
 
 try{
     mongoose.connect(dbURL,{useNewUrlParser:true,useUnifiedTopology: true});
